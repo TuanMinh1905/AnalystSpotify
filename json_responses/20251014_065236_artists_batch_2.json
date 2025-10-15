@@ -1,0 +1,382 @@
+{
+  "timestamp": "20251014_065236",
+  "endpoint": "artists_batch_2",
+  "extra_info": {
+    "url": "https://api.spotify.com/v1/artists",
+    "params": {
+      "ids": "38PzLQE4GW8o7A18oGhi0x,6WamMeXO2jN9tUYxSBUclQ,6U1dV7aL68N7Gb0Naq34V5,1McMsnEElThX1knmY4oliG,22wbnEMDvgVIAGdFeek6ET,3y2cIKLjiOlp1Np37WiUdH,33qOK5uJ8AR2xuQQAhHump,67FB4n52MgexGQIG8s0yUH,7voVuewp9js4Ru1FQCw2RI,0fTSzq9jAh4c36UVb4V7CB,3bO19AOone0ubCsfDXDtYt"
+    },
+    "status_code": 200
+  },
+  "response": {
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/38PzLQE4GW8o7A18oGhi0x"
+        },
+        "followers": {
+          "href": null,
+          "total": 37011
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/38PzLQE4GW8o7A18oGhi0x",
+        "id": "38PzLQE4GW8o7A18oGhi0x",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb8d6933dac5dae2746a97fbd7",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051748d6933dac5dae2746a97fbd7",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1788d6933dac5dae2746a97fbd7",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "hey daisy",
+        "popularity": 63,
+        "type": "artist",
+        "uri": "spotify:artist:38PzLQE4GW8o7A18oGhi0x"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6WamMeXO2jN9tUYxSBUclQ"
+        },
+        "followers": {
+          "href": null,
+          "total": 11003
+        },
+        "genres": [
+          "slap house"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6WamMeXO2jN9tUYxSBUclQ",
+        "id": "6WamMeXO2jN9tUYxSBUclQ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb85ac0dd294c68b59e8c88fdb",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517485ac0dd294c68b59e8c88fdb",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17885ac0dd294c68b59e8c88fdb",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Paradigm",
+        "popularity": 48,
+        "type": "artist",
+        "uri": "spotify:artist:6WamMeXO2jN9tUYxSBUclQ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6U1dV7aL68N7Gb0Naq34V5"
+        },
+        "followers": {
+          "href": null,
+          "total": 269764
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6U1dV7aL68N7Gb0Naq34V5",
+        "id": "6U1dV7aL68N7Gb0Naq34V5",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebeb39ded0900c3e50e3d7ba68",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174eb39ded0900c3e50e3d7ba68",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178eb39ded0900c3e50e3d7ba68",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "REI AMI",
+        "popularity": 87,
+        "type": "artist",
+        "uri": "spotify:artist:6U1dV7aL68N7Gb0Naq34V5"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG"
+        },
+        "followers": {
+          "href": null,
+          "total": 48746696
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1McMsnEElThX1knmY4oliG",
+        "id": "1McMsnEElThX1knmY4oliG",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebe03a98785f3658f0b6461ec4",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178e03a98785f3658f0b6461ec4",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Olivia Rodrigo",
+        "popularity": 84,
+        "type": "artist",
+        "uri": "spotify:artist:1McMsnEElThX1knmY4oliG"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/22wbnEMDvgVIAGdFeek6ET"
+        },
+        "followers": {
+          "href": null,
+          "total": 6955176
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/22wbnEMDvgVIAGdFeek6ET",
+        "id": "22wbnEMDvgVIAGdFeek6ET",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb68234e1a673acc3d873d3e6",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174b68234e1a673acc3d873d3e6",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178b68234e1a673acc3d873d3e6",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Benson Boone",
+        "popularity": 83,
+        "type": "artist",
+        "uri": "spotify:artist:22wbnEMDvgVIAGdFeek6ET"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3y2cIKLjiOlp1Np37WiUdH"
+        },
+        "followers": {
+          "href": null,
+          "total": 1426276
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3y2cIKLjiOlp1Np37WiUdH",
+        "id": "3y2cIKLjiOlp1Np37WiUdH",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb2361ab73b5a386e2522790e8",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051742361ab73b5a386e2522790e8",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1782361ab73b5a386e2522790e8",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Shaboozey",
+        "popularity": 76,
+        "type": "artist",
+        "uri": "spotify:artist:3y2cIKLjiOlp1Np37WiUdH"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump"
+        },
+        "followers": {
+          "href": null,
+          "total": 5587679
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/33qOK5uJ8AR2xuQQAhHump",
+        "id": "33qOK5uJ8AR2xuQQAhHump",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebf9cf783eb03eb66aa43943ba",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174f9cf783eb03eb66aa43943ba",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178f9cf783eb03eb66aa43943ba",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Teddy Swims",
+        "popularity": 83,
+        "type": "artist",
+        "uri": "spotify:artist:33qOK5uJ8AR2xuQQAhHump"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/67FB4n52MgexGQIG8s0yUH"
+        },
+        "followers": {
+          "href": null,
+          "total": 1433258
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/67FB4n52MgexGQIG8s0yUH",
+        "id": "67FB4n52MgexGQIG8s0yUH",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4831bc7f3017aae35b175d23",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051744831bc7f3017aae35b175d23",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1784831bc7f3017aae35b175d23",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Lola Young",
+        "popularity": 78,
+        "type": "artist",
+        "uri": "spotify:artist:67FB4n52MgexGQIG8s0yUH"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7voVuewp9js4Ru1FQCw2RI"
+        },
+        "followers": {
+          "href": null,
+          "total": 6381
+        },
+        "genres": [
+          "slap house"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7voVuewp9js4Ru1FQCw2RI",
+        "id": "7voVuewp9js4Ru1FQCw2RI",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb2d5a6765d711fbf4abbcb53d",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051742d5a6765d711fbf4abbcb53d",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1782d5a6765d711fbf4abbcb53d",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Jordan Rys",
+        "popularity": 46,
+        "type": "artist",
+        "uri": "spotify:artist:7voVuewp9js4Ru1FQCw2RI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB"
+        },
+        "followers": {
+          "href": null,
+          "total": 2785277
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0fTSzq9jAh4c36UVb4V7CB",
+        "id": "0fTSzq9jAh4c36UVb4V7CB",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebe5547931c7f652c2ece8b76c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174e5547931c7f652c2ece8b76c",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178e5547931c7f652c2ece8b76c",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Alex Warren",
+        "popularity": 85,
+        "type": "artist",
+        "uri": "spotify:artist:0fTSzq9jAh4c36UVb4V7CB"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3bO19AOone0ubCsfDXDtYt"
+        },
+        "followers": {
+          "href": null,
+          "total": 1299339
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3bO19AOone0ubCsfDXDtYt",
+        "id": "3bO19AOone0ubCsfDXDtYt",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb96327fa3a2c850b608b8efb3",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517496327fa3a2c850b608b8efb3",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17896327fa3a2c850b608b8efb3",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Myles Smith",
+        "popularity": 74,
+        "type": "artist",
+        "uri": "spotify:artist:3bO19AOone0ubCsfDXDtYt"
+      }
+    ]
+  }
+}

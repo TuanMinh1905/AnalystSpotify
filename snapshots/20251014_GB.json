@@ -1,0 +1,207 @@
+{
+  "country": "GB",
+  "market": "GB",
+  "playlist_id": "5bTx7cRA0URkBJZfdJTN0o",
+  "playlist_name": "Predefined playlist for GB",
+  "top_artists": [
+    [
+      "beabadoobee",
+      1
+    ],
+    [
+      "La Felix",
+      1
+    ],
+    [
+      "rynjae",
+      1
+    ],
+    [
+      "Forrest Nolan",
+      1
+    ],
+    [
+      "Nenashi",
+      1
+    ],
+    [
+      "Omar Apollo",
+      1
+    ],
+    [
+      "92914",
+      1
+    ],
+    [
+      "H.E.R.",
+      1
+    ],
+    [
+      "Anthony Russo",
+      1
+    ],
+    [
+      "Sarah Barrios",
+      1
+    ],
+    [
+      "Raveena",
+      1
+    ],
+    [
+      "FIG",
+      1
+    ],
+    [
+      "Weston Estate",
+      1
+    ],
+    [
+      "Finn Askew",
+      1
+    ],
+    [
+      "Jenevieve",
+      1
+    ]
+  ],
+  "top_genres": [
+    [
+      "bedroom pop",
+      4
+    ],
+    [
+      "alternative r&b",
+      2
+    ],
+    [
+      "k-rap",
+      1
+    ],
+    [
+      "nu disco",
+      1
+    ],
+    [
+      "j-r&b",
+      1
+    ],
+    [
+      "r&b",
+      1
+    ],
+    [
+      "indie soul",
+      1
+    ]
+  ],
+  "top_tracks": [
+    [
+      "Sunny day",
+      65,
+      [
+        "beabadoobee"
+      ]
+    ],
+    [
+      "Focus",
+      64,
+      [
+        "H.E.R."
+      ]
+    ],
+    [
+      "Erase",
+      46,
+      [
+        "Omar Apollo"
+      ]
+    ],
+    [
+      "Thinkin Bout You",
+      39,
+      [
+        "Anthony Russo"
+      ]
+    ],
+    [
+      "Outside",
+      38,
+      [
+        "Weston Estate"
+      ]
+    ],
+    [
+      "Pair Of You",
+      37,
+      [
+        "FIG"
+      ]
+    ],
+    [
+      "Aftertaste",
+      37,
+      [
+        "Finn Askew"
+      ]
+    ],
+    [
+      "Tweety",
+      36,
+      [
+        "Raveena"
+      ]
+    ],
+    [
+      "Exit Wounds",
+      36,
+      [
+        "Jenevieve"
+      ]
+    ],
+    [
+      "My Kinda Love",
+      33,
+      [
+        "La Felix",
+        "rynjae"
+      ]
+    ],
+    [
+      "Pasadena",
+      30,
+      [
+        "92914"
+      ]
+    ],
+    [
+      "Scars",
+      25,
+      [
+        "Nenashi"
+      ]
+    ],
+    [
+      "Bye Bye",
+      22,
+      [
+        "Jeremy Passion"
+      ]
+    ],
+    [
+      "Heartbreaker",
+      21,
+      [
+        "Tayo Sound"
+      ]
+    ],
+    [
+      "I Didn't Mean To",
+      17,
+      [
+        "Sarah Barrios"
+      ]
+    ]
+  ],
+  "raw_count": 16
+}

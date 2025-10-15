@@ -1,0 +1,439 @@
+{
+  "timestamp": "20251014_084550",
+  "endpoint": "artists_batch_5",
+  "extra_info": {
+    "url": "https://api.spotify.com/v1/artists",
+    "params": {
+      "ids": "3oB1lv9FWDKbNOUvdTw75Q,0qg6rKD8BaOwQ9eLusQyP3,3nyDb6pHOKElDboO9wcL6Q,3eKnh5bh0TzO9WwnKMJplK,0B4xfINnsEaswZt90qZEmi,6Sz9jchJpz8HyBTtkPvYDT,0V5OteNM3AgI6xnUZwHtVx,3bEpDWJgaRcDvtoZpomdSo,3NtqIIwOmoUGkrS4iD4lxY,3l6YiTosGtrsp8iGs0IASz,3biVA9LcA3TYKc8j74fc8W,6mK1IXIrTZkdzKW1jBqRAO,3WLatExoOU2CyDLmQPB8SS"
+    },
+    "status_code": 200
+  },
+  "response": {
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3oB1lv9FWDKbNOUvdTw75Q"
+        },
+        "followers": {
+          "href": null,
+          "total": 361639
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3oB1lv9FWDKbNOUvdTw75Q",
+        "id": "3oB1lv9FWDKbNOUvdTw75Q",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb78b8ad9a7c878386f18e0d29",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517478b8ad9a7c878386f18e0d29",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17878b8ad9a7c878386f18e0d29",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Donald Gold",
+        "popularity": 50,
+        "type": "artist",
+        "uri": "spotify:artist:3oB1lv9FWDKbNOUvdTw75Q"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0qg6rKD8BaOwQ9eLusQyP3"
+        },
+        "followers": {
+          "href": null,
+          "total": 3084
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0qg6rKD8BaOwQ9eLusQyP3",
+        "id": "0qg6rKD8BaOwQ9eLusQyP3",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb92c8d1e22e0bc646a3231fd7",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517492c8d1e22e0bc646a3231fd7",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17892c8d1e22e0bc646a3231fd7",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "An Clock",
+        "popularity": 37,
+        "type": "artist",
+        "uri": "spotify:artist:0qg6rKD8BaOwQ9eLusQyP3"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3nyDb6pHOKElDboO9wcL6Q"
+        },
+        "followers": {
+          "href": null,
+          "total": 4
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3nyDb6pHOKElDboO9wcL6Q",
+        "id": "3nyDb6pHOKElDboO9wcL6Q",
+        "images": [],
+        "name": "HuyPT",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3nyDb6pHOKElDboO9wcL6Q"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3eKnh5bh0TzO9WwnKMJplK"
+        },
+        "followers": {
+          "href": null,
+          "total": 1026
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3eKnh5bh0TzO9WwnKMJplK",
+        "id": "3eKnh5bh0TzO9WwnKMJplK",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebee8b2dad0f5ef3640cbbdf5d",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174ee8b2dad0f5ef3640cbbdf5d",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178ee8b2dad0f5ef3640cbbdf5d",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Đặng Thiên Chí",
+        "popularity": 28,
+        "type": "artist",
+        "uri": "spotify:artist:3eKnh5bh0TzO9WwnKMJplK"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0B4xfINnsEaswZt90qZEmi"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0B4xfINnsEaswZt90qZEmi",
+        "id": "0B4xfINnsEaswZt90qZEmi",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273f00fee99b87880b0592776a9",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02f00fee99b87880b0592776a9",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851f00fee99b87880b0592776a9",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Luân Pi",
+        "popularity": 21,
+        "type": "artist",
+        "uri": "spotify:artist:0B4xfINnsEaswZt90qZEmi"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Sz9jchJpz8HyBTtkPvYDT"
+        },
+        "followers": {
+          "href": null,
+          "total": 141289
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop",
+          "vietnamese bolero"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6Sz9jchJpz8HyBTtkPvYDT",
+        "id": "6Sz9jchJpz8HyBTtkPvYDT",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb7e28657ebcdce6d16e08301e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051747e28657ebcdce6d16e08301e",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1787e28657ebcdce6d16e08301e",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Khánh Phương",
+        "popularity": 34,
+        "type": "artist",
+        "uri": "spotify:artist:6Sz9jchJpz8HyBTtkPvYDT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0V5OteNM3AgI6xnUZwHtVx"
+        },
+        "followers": {
+          "href": null,
+          "total": 7
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0V5OteNM3AgI6xnUZwHtVx",
+        "id": "0V5OteNM3AgI6xnUZwHtVx",
+        "images": [],
+        "name": "Jay Trần",
+        "popularity": 14,
+        "type": "artist",
+        "uri": "spotify:artist:0V5OteNM3AgI6xnUZwHtVx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3bEpDWJgaRcDvtoZpomdSo"
+        },
+        "followers": {
+          "href": null,
+          "total": 771
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3bEpDWJgaRcDvtoZpomdSo",
+        "id": "3bEpDWJgaRcDvtoZpomdSo",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27356f407a53933d86f83774e2e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0256f407a53933d86f83774e2e",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485156f407a53933d86f83774e2e",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "OXI Remix",
+        "popularity": 30,
+        "type": "artist",
+        "uri": "spotify:artist:3bEpDWJgaRcDvtoZpomdSo"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3NtqIIwOmoUGkrS4iD4lxY"
+        },
+        "followers": {
+          "href": null,
+          "total": 6913
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3NtqIIwOmoUGkrS4iD4lxY",
+        "id": "3NtqIIwOmoUGkrS4iD4lxY",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27390ab9d3182e6c6d9af486a4a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0290ab9d3182e6c6d9af486a4a",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485190ab9d3182e6c6d9af486a4a",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "THEREON",
+        "popularity": 19,
+        "type": "artist",
+        "uri": "spotify:artist:3NtqIIwOmoUGkrS4iD4lxY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3l6YiTosGtrsp8iGs0IASz"
+        },
+        "followers": {
+          "href": null,
+          "total": 1095
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop",
+          "vietnamese hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3l6YiTosGtrsp8iGs0IASz",
+        "id": "3l6YiTosGtrsp8iGs0IASz",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb28b72da851837b6e82606c3b",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517428b72da851837b6e82606c3b",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17828b72da851837b6e82606c3b",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Dương Ái Vy",
+        "popularity": 31,
+        "type": "artist",
+        "uri": "spotify:artist:3l6YiTosGtrsp8iGs0IASz"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3biVA9LcA3TYKc8j74fc8W"
+        },
+        "followers": {
+          "href": null,
+          "total": 28
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3biVA9LcA3TYKc8j74fc8W",
+        "id": "3biVA9LcA3TYKc8j74fc8W",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273d66d4f2d2eeec45aedf3b4b2",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02d66d4f2d2eeec45aedf3b4b2",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851d66d4f2d2eeec45aedf3b4b2",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "LASONAS TEAM",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:3biVA9LcA3TYKc8j74fc8W"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6mK1IXIrTZkdzKW1jBqRAO"
+        },
+        "followers": {
+          "href": null,
+          "total": 983
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6mK1IXIrTZkdzKW1jBqRAO",
+        "id": "6mK1IXIrTZkdzKW1jBqRAO",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4ef6f431d69b126623b25f01",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051744ef6f431d69b126623b25f01",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1784ef6f431d69b126623b25f01",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Hải DN",
+        "popularity": 20,
+        "type": "artist",
+        "uri": "spotify:artist:6mK1IXIrTZkdzKW1jBqRAO"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3WLatExoOU2CyDLmQPB8SS"
+        },
+        "followers": {
+          "href": null,
+          "total": 637
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3WLatExoOU2CyDLmQPB8SS",
+        "id": "3WLatExoOU2CyDLmQPB8SS",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2731adec3940d45c28423a148e8",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e021adec3940d45c28423a148e8",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048511adec3940d45c28423a148e8",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Việt Lee",
+        "popularity": 32,
+        "type": "artist",
+        "uri": "spotify:artist:3WLatExoOU2CyDLmQPB8SS"
+      }
+    ]
+  }
+}

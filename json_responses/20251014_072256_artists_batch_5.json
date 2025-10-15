@@ -1,0 +1,438 @@
+{
+  "timestamp": "20251014_072256",
+  "endpoint": "artists_batch_5",
+  "extra_info": {
+    "url": "https://api.spotify.com/v1/artists",
+    "params": {
+      "ids": "65sBTKvfYeY4ehQ3vrIPS8,17mq1wAwoufxMiEzQOqoFy,5FYjNcqkbg393b7aJG9i7Z,3bEpDWJgaRcDvtoZpomdSo,0ILesxuB7UKvBBl01bvud6,5sK9cYMRqNOdY9Og2DKAgs,2nSO7JYDbJrYbJmP39qUzj,11YiJxEOJRRMww5kUNu7wI,2JTay1W5n8PIJm8v1BK7S7,1GGFvmx7Z7NHxgtb9tHiNI,7oy6e74Naz8PYMfXmEwIeM,7b7aNw5nu9VYfPJuZfHPY4,2Ch0Zz1jY0DornwFuVKnMq"
+    },
+    "status_code": 200
+  },
+  "response": {
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/65sBTKvfYeY4ehQ3vrIPS8"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/65sBTKvfYeY4ehQ3vrIPS8",
+        "id": "65sBTKvfYeY4ehQ3vrIPS8",
+        "images": [],
+        "name": "Kieu Thien Truong",
+        "popularity": 2,
+        "type": "artist",
+        "uri": "spotify:artist:65sBTKvfYeY4ehQ3vrIPS8"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/17mq1wAwoufxMiEzQOqoFy"
+        },
+        "followers": {
+          "href": null,
+          "total": 21
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/17mq1wAwoufxMiEzQOqoFy",
+        "id": "17mq1wAwoufxMiEzQOqoFy",
+        "images": [],
+        "name": "Phạm Khánh Duy",
+        "popularity": 20,
+        "type": "artist",
+        "uri": "spotify:artist:17mq1wAwoufxMiEzQOqoFy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5FYjNcqkbg393b7aJG9i7Z"
+        },
+        "followers": {
+          "href": null,
+          "total": 742
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5FYjNcqkbg393b7aJG9i7Z",
+        "id": "5FYjNcqkbg393b7aJG9i7Z",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebecd84afaf864227ce1346519",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174ecd84afaf864227ce1346519",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178ecd84afaf864227ce1346519",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "T.Bynz",
+        "popularity": 21,
+        "type": "artist",
+        "uri": "spotify:artist:5FYjNcqkbg393b7aJG9i7Z"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3bEpDWJgaRcDvtoZpomdSo"
+        },
+        "followers": {
+          "href": null,
+          "total": 771
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3bEpDWJgaRcDvtoZpomdSo",
+        "id": "3bEpDWJgaRcDvtoZpomdSo",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27356f407a53933d86f83774e2e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0256f407a53933d86f83774e2e",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485156f407a53933d86f83774e2e",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "OXI Remix",
+        "popularity": 30,
+        "type": "artist",
+        "uri": "spotify:artist:3bEpDWJgaRcDvtoZpomdSo"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0ILesxuB7UKvBBl01bvud6"
+        },
+        "followers": {
+          "href": null,
+          "total": 116
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0ILesxuB7UKvBBl01bvud6",
+        "id": "0ILesxuB7UKvBBl01bvud6",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273768cafc8252c7e24d8c606a5",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e028f52fcbecfd9fdf22a22fc3e",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048518f52fcbecfd9fdf22a22fc3e",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Láo Soái Nhi",
+        "popularity": 17,
+        "type": "artist",
+        "uri": "spotify:artist:0ILesxuB7UKvBBl01bvud6"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5sK9cYMRqNOdY9Og2DKAgs"
+        },
+        "followers": {
+          "href": null,
+          "total": 116181
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5sK9cYMRqNOdY9Og2DKAgs",
+        "id": "5sK9cYMRqNOdY9Og2DKAgs",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb11d0c44719cdfe387924215d",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517411d0c44719cdfe387924215d",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17811d0c44719cdfe387924215d",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "H2O Remix",
+        "popularity": 50,
+        "type": "artist",
+        "uri": "spotify:artist:5sK9cYMRqNOdY9Og2DKAgs"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2nSO7JYDbJrYbJmP39qUzj"
+        },
+        "followers": {
+          "href": null,
+          "total": 1246465
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie",
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2nSO7JYDbJrYbJmP39qUzj",
+        "id": "2nSO7JYDbJrYbJmP39qUzj",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc1e37930853ff1686dcdd567",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174c1e37930853ff1686dcdd567",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178c1e37930853ff1686dcdd567",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Binz",
+        "popularity": 56,
+        "type": "artist",
+        "uri": "spotify:artist:2nSO7JYDbJrYbJmP39qUzj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/11YiJxEOJRRMww5kUNu7wI"
+        },
+        "followers": {
+          "href": null,
+          "total": 119
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/11YiJxEOJRRMww5kUNu7wI",
+        "id": "11YiJxEOJRRMww5kUNu7wI",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273cce188a387d672130c71bf85",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02cce188a387d672130c71bf85",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851cce188a387d672130c71bf85",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Haiyang",
+        "popularity": 26,
+        "type": "artist",
+        "uri": "spotify:artist:11YiJxEOJRRMww5kUNu7wI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2JTay1W5n8PIJm8v1BK7S7"
+        },
+        "followers": {
+          "href": null,
+          "total": 1814
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2JTay1W5n8PIJm8v1BK7S7",
+        "id": "2JTay1W5n8PIJm8v1BK7S7",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b27360d6fa2c15611f17db28963c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e0260d6fa2c15611f17db28963c",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000485160d6fa2c15611f17db28963c",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Luxury Music Group",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:2JTay1W5n8PIJm8v1BK7S7"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1GGFvmx7Z7NHxgtb9tHiNI"
+        },
+        "followers": {
+          "href": null,
+          "total": 209
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1GGFvmx7Z7NHxgtb9tHiNI",
+        "id": "1GGFvmx7Z7NHxgtb9tHiNI",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb1427d22d036f2e73515370a2",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051741427d22d036f2e73515370a2",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1781427d22d036f2e73515370a2",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "VM",
+        "popularity": 33,
+        "type": "artist",
+        "uri": "spotify:artist:1GGFvmx7Z7NHxgtb9tHiNI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7oy6e74Naz8PYMfXmEwIeM"
+        },
+        "followers": {
+          "href": null,
+          "total": 354
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7oy6e74Naz8PYMfXmEwIeM",
+        "id": "7oy6e74Naz8PYMfXmEwIeM",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273a73ea5244559dd1da53ba5b9",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02a73ea5244559dd1da53ba5b9",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851a73ea5244559dd1da53ba5b9",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Kienn",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:7oy6e74Naz8PYMfXmEwIeM"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7b7aNw5nu9VYfPJuZfHPY4"
+        },
+        "followers": {
+          "href": null,
+          "total": 2875
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7b7aNw5nu9VYfPJuZfHPY4",
+        "id": "7b7aNw5nu9VYfPJuZfHPY4",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb015d202bd46a1cbee46491ef",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174015d202bd46a1cbee46491ef",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178015d202bd46a1cbee46491ef",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Lâm Tuấn",
+        "popularity": 33,
+        "type": "artist",
+        "uri": "spotify:artist:7b7aNw5nu9VYfPJuZfHPY4"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2Ch0Zz1jY0DornwFuVKnMq"
+        },
+        "followers": {
+          "href": null,
+          "total": 125
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2Ch0Zz1jY0DornwFuVKnMq",
+        "id": "2Ch0Zz1jY0DornwFuVKnMq",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273fecbbd7eb957654cbff6938a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02fecbbd7eb957654cbff6938a",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851fecbbd7eb957654cbff6938a",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "HGK",
+        "popularity": 14,
+        "type": "artist",
+        "uri": "spotify:artist:2Ch0Zz1jY0DornwFuVKnMq"
+      }
+    ]
+  }
+}

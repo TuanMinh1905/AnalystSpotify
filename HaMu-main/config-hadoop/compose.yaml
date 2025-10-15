@@ -1,0 +1,66 @@
+services:
+  hadoop-base:
+    build: 
+      context: ./hadoop-base
+      dockerfile: Dockerfile
+    image: hadoop-base1
+
+  hadoop-master:
+    ports:
+      - "8042:8042"
+      - "8088:8088"
+      - "8080:8080"
+      - "9004:9004"
+      - "9864:9864"
+      - "9870:9870"
+      - "60070:50070"  
+    build: 
+      context: ./master
+      dockerfile: Dockerfile
+    image: hadoop-master1
+    depends_on:
+      - hadoop-base
+    
+  hadoop-slave:
+    build: 
+      context: ./slave
+      dockerfile: Dockerfile
+    image: hadoop-slave1
+    depends_on:
+      - hadoop-base
+
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    restart: always
+    environment:
+      - MINIO_ROOT_USER=longminh
+      - MINIO_ROOT_PASSWORD=longminh
+      - TZ=Asia/Ho_Chi_Minh
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Web console
+    volumes:
+      - ./minio-data:/data
+
+  
+  postgres:
+    image: postgres:16
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=longminh
+      - POSTGRES_PASSWORD=longminh
+      - POSTGRES_DB=airflowdb
+      - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - "5432:5432"              # mở ra host (nếu muốn psql từ Windows)
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data   # dữ liệu map về Windows: HaMu-main\pgdata
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflowdb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

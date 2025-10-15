@@ -1,0 +1,240 @@
+{
+  "country": "US",
+  "market": "US",
+  "playlist_id": "31ymdYCITDnZRtkKzP3Itp",
+  "playlist_name": "Predefined playlist for US",
+  "top_artists": [
+    [
+      "Justin Bieber",
+      5
+    ],
+    [
+      "Billie Eilish",
+      4
+    ],
+    [
+      "Sabrina Carpenter",
+      3
+    ],
+    [
+      "Taylor Swift",
+      3
+    ],
+    [
+      "Post Malone",
+      3
+    ],
+    [
+      "Bruno Mars",
+      2
+    ],
+    [
+      "Mark Mendy",
+      2
+    ],
+    [
+      "Harry Styles",
+      2
+    ],
+    [
+      "Olivia Rodrigo",
+      2
+    ],
+    [
+      "Tate McRae",
+      2
+    ],
+    [
+      "Mitchy & André",
+      2
+    ],
+    [
+      "Lady Gaga",
+      1
+    ],
+    [
+      "HUNTR/X",
+      1
+    ],
+    [
+      "EJAE",
+      1
+    ],
+    [
+      "AUDREY NUNA",
+      1
+    ]
+  ],
+  "top_genres": [
+    [
+      "pop",
+      6
+    ],
+    [
+      "k-pop",
+      4
+    ],
+    [
+      "soft pop",
+      3
+    ],
+    [
+      "slap house",
+      2
+    ],
+    [
+      "art pop",
+      1
+    ],
+    [
+      "country",
+      1
+    ],
+    [
+      "alternative r&b",
+      1
+    ],
+    [
+      "indie soul",
+      1
+    ],
+    [
+      "afrobeat",
+      1
+    ],
+    [
+      "afropiano",
+      1
+    ],
+    [
+      "afrobeats",
+      1
+    ],
+    [
+      "afropop",
+      1
+    ],
+    [
+      "tropical house",
+      1
+    ],
+    [
+      "r&b",
+      1
+    ]
+  ],
+  "top_tracks": [
+    [
+      "Golden",
+      100,
+      [
+        "HUNTR/X",
+        "EJAE",
+        "AUDREY NUNA",
+        "REI AMI",
+        "KPop Demon Hunters Cast"
+      ]
+    ],
+    [
+      "BIRDS OF A FEATHER",
+      94,
+      [
+        "Billie Eilish"
+      ]
+    ],
+    [
+      "back to friends",
+      93,
+      [
+        "sombr"
+      ]
+    ],
+    [
+      "Die With A Smile",
+      92,
+      [
+        "Lady Gaga",
+        "Bruno Mars"
+      ]
+    ],
+    [
+      "DAISIES",
+      92,
+      [
+        "Justin Bieber"
+      ]
+    ],
+    [
+      "Ordinary",
+      91,
+      [
+        "Alex Warren"
+      ]
+    ],
+    [
+      "Sweater Weather",
+      91,
+      [
+        "The Neighbourhood"
+      ]
+    ],
+    [
+      "Good Luck, Babe!",
+      89,
+      [
+        "Chappell Roan"
+      ]
+    ],
+    [
+      "Love Me Not",
+      89,
+      [
+        "Ravyn Lenae"
+      ]
+    ],
+    [
+      "End of Beginning",
+      89,
+      [
+        "Djo"
+      ]
+    ],
+    [
+      "Lose Control",
+      89,
+      [
+        "Teddy Swims"
+      ]
+    ],
+    [
+      "Cruel Summer",
+      88,
+      [
+        "Taylor Swift"
+      ]
+    ],
+    [
+      "APT.",
+      88,
+      [
+        "ROSÉ",
+        "Bruno Mars"
+      ]
+    ],
+    [
+      "Shape of You",
+      88,
+      [
+        "Ed Sheeran"
+      ]
+    ],
+    [
+      "we can't be friends (wait for your love)",
+      87,
+      [
+        "Ariana Grande"
+      ]
+    ]
+  ],
+  "raw_count": 63
+}

@@ -1,0 +1,479 @@
+{
+  "timestamp": "20251014_072419",
+  "endpoint": "artists_batch_5",
+  "extra_info": {
+    "url": "https://api.spotify.com/v1/artists",
+    "params": {
+      "ids": "0okOBQvuWiPJnfvvmosphN,1gjeO7nm4QagscrFBbHiSZ,7u08jDsUZkfFy5ociS1U3h,0LKITvopNnLKBJhBUJNrxA,0bh3xIjutuXaGQVJFQyNWp,5gGVniqlle0PavKpdawRzs,0B4xfINnsEaswZt90qZEmi,1RZSSA978w2tUKtXqC6XGZ,5yp9ESuUDJHoPJlvO0inNt,3kkcWqAkZejjoVFq7xBink,3Azs9k4R3Ogp4rYGhtUh8O,05l2qYioBllzY7nDoT9aYE,03nksLUvP0qHDbkyxyRDje"
+    },
+    "status_code": 200
+  },
+  "response": {
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0okOBQvuWiPJnfvvmosphN"
+        },
+        "followers": {
+          "href": null,
+          "total": 24536
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop",
+          "vietnamese lo-fi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0okOBQvuWiPJnfvvmosphN",
+        "id": "0okOBQvuWiPJnfvvmosphN",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4befc1db0ab9a9144101c505",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051744befc1db0ab9a9144101c505",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1784befc1db0ab9a9144101c505",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "VIET.",
+        "popularity": 36,
+        "type": "artist",
+        "uri": "spotify:artist:0okOBQvuWiPJnfvvmosphN"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1gjeO7nm4QagscrFBbHiSZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 105965
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop",
+          "vietnamese lo-fi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1gjeO7nm4QagscrFBbHiSZ",
+        "id": "1gjeO7nm4QagscrFBbHiSZ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebae5e13176f2fe26ccc9d4d14",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174ae5e13176f2fe26ccc9d4d14",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178ae5e13176f2fe26ccc9d4d14",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Nguyễn Đình Vũ",
+        "popularity": 40,
+        "type": "artist",
+        "uri": "spotify:artist:1gjeO7nm4QagscrFBbHiSZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7u08jDsUZkfFy5ociS1U3h"
+        },
+        "followers": {
+          "href": null,
+          "total": 84
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7u08jDsUZkfFy5ociS1U3h",
+        "id": "7u08jDsUZkfFy5ociS1U3h",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2734a581f2f3aef8c163950fa1b",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e024a581f2f3aef8c163950fa1b",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048514a581f2f3aef8c163950fa1b",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Tipo",
+        "popularity": 20,
+        "type": "artist",
+        "uri": "spotify:artist:7u08jDsUZkfFy5ociS1U3h"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0LKITvopNnLKBJhBUJNrxA"
+        },
+        "followers": {
+          "href": null,
+          "total": 4467
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0LKITvopNnLKBJhBUJNrxA",
+        "id": "0LKITvopNnLKBJhBUJNrxA",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273095e435442bfe89f8da90d8d",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02095e435442bfe89f8da90d8d",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851095e435442bfe89f8da90d8d",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Tú Na",
+        "popularity": 33,
+        "type": "artist",
+        "uri": "spotify:artist:0LKITvopNnLKBJhBUJNrxA"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0bh3xIjutuXaGQVJFQyNWp"
+        },
+        "followers": {
+          "href": null,
+          "total": 103
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0bh3xIjutuXaGQVJFQyNWp",
+        "id": "0bh3xIjutuXaGQVJFQyNWp",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2737c73b225bae9d629b30a29d7",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e027c73b225bae9d629b30a29d7",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048517c73b225bae9d629b30a29d7",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "JC Hưng",
+        "popularity": 20,
+        "type": "artist",
+        "uri": "spotify:artist:0bh3xIjutuXaGQVJFQyNWp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5gGVniqlle0PavKpdawRzs"
+        },
+        "followers": {
+          "href": null,
+          "total": 3072
+        },
+        "genres": [
+          "vinahouse",
+          "vietnamese hip hop",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5gGVniqlle0PavKpdawRzs",
+        "id": "5gGVniqlle0PavKpdawRzs",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebbf5d049421cef37647ccc754",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174bf5d049421cef37647ccc754",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178bf5d049421cef37647ccc754",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "AnhVu",
+        "popularity": 36,
+        "type": "artist",
+        "uri": "spotify:artist:5gGVniqlle0PavKpdawRzs"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0B4xfINnsEaswZt90qZEmi"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0B4xfINnsEaswZt90qZEmi",
+        "id": "0B4xfINnsEaswZt90qZEmi",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273f00fee99b87880b0592776a9",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02f00fee99b87880b0592776a9",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851f00fee99b87880b0592776a9",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Luân Pi",
+        "popularity": 21,
+        "type": "artist",
+        "uri": "spotify:artist:0B4xfINnsEaswZt90qZEmi"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1RZSSA978w2tUKtXqC6XGZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 194610
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop",
+          "vietnamese lo-fi",
+          "vietnamese bolero"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1RZSSA978w2tUKtXqC6XGZ",
+        "id": "1RZSSA978w2tUKtXqC6XGZ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb812757741d1ab6edc8a208c5",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174812757741d1ab6edc8a208c5",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178812757741d1ab6edc8a208c5",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Châu Khải Phong",
+        "popularity": 39,
+        "type": "artist",
+        "uri": "spotify:artist:1RZSSA978w2tUKtXqC6XGZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5yp9ESuUDJHoPJlvO0inNt"
+        },
+        "followers": {
+          "href": null,
+          "total": 1190
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5yp9ESuUDJHoPJlvO0inNt",
+        "id": "5yp9ESuUDJHoPJlvO0inNt",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273dd060926eb8adcce98589b28",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02dd060926eb8adcce98589b28",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851dd060926eb8adcce98589b28",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Thereon",
+        "popularity": 28,
+        "type": "artist",
+        "uri": "spotify:artist:5yp9ESuUDJHoPJlvO0inNt"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3kkcWqAkZejjoVFq7xBink"
+        },
+        "followers": {
+          "href": null,
+          "total": 21
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3kkcWqAkZejjoVFq7xBink",
+        "id": "3kkcWqAkZejjoVFq7xBink",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273253bcd040c6145d137a918ff",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02f8ae7da6242025205c60e343",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851ce831a72481b9f0584a68c42",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Mimilee",
+        "popularity": 32,
+        "type": "artist",
+        "uri": "spotify:artist:3kkcWqAkZejjoVFq7xBink"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3Azs9k4R3Ogp4rYGhtUh8O"
+        },
+        "followers": {
+          "href": null,
+          "total": 25
+        },
+        "genres": [
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3Azs9k4R3Ogp4rYGhtUh8O",
+        "id": "3Azs9k4R3Ogp4rYGhtUh8O",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273fecbbd7eb957654cbff6938a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02fecbbd7eb957654cbff6938a",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851fecbbd7eb957654cbff6938a",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Pi Nine",
+        "popularity": 14,
+        "type": "artist",
+        "uri": "spotify:artist:3Azs9k4R3Ogp4rYGhtUh8O"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/05l2qYioBllzY7nDoT9aYE"
+        },
+        "followers": {
+          "href": null,
+          "total": 4
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/05l2qYioBllzY7nDoT9aYE",
+        "id": "05l2qYioBllzY7nDoT9aYE",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b2734d8928c28a4889899bfa325d",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e024d8928c28a4889899bfa325d",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d000048514d8928c28a4889899bfa325d",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "DJ Vân Khánh",
+        "popularity": 14,
+        "type": "artist",
+        "uri": "spotify:artist:05l2qYioBllzY7nDoT9aYE"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/03nksLUvP0qHDbkyxyRDje"
+        },
+        "followers": {
+          "href": null,
+          "total": 73281
+        },
+        "genres": [
+          "vinahouse",
+          "v-pop",
+          "vietnamese bolero",
+          "vietnamese lo-fi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/03nksLUvP0qHDbkyxyRDje",
+        "id": "03nksLUvP0qHDbkyxyRDje",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb776926d45a0353e95a6327ac",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174776926d45a0353e95a6327ac",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178776926d45a0353e95a6327ac",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Đình Dũng",
+        "popularity": 42,
+        "type": "artist",
+        "uri": "spotify:artist:03nksLUvP0qHDbkyxyRDje"
+      }
+    ]
+  }
+}
