@@ -1,0 +1,24 @@
+{
+  "timestamp": "20251018_071802",
+  "endpoint": "new_releases_GA_p3",
+  "extra_info": {
+    "url": "https://api.spotify.com/v1/browse/new-releases",
+    "params": {
+      "country": "GA",
+      "limit": 50,
+      "offset": 100
+    },
+    "status": 200
+  },
+  "response": {
+    "albums": {
+      "href": "https://api.spotify.com/v1/browse/new-releases?offset=100&limit=50",
+      "items": [],
+      "limit": 50,
+      "next": null,
+      "offset": 100,
+      "previous": "https://api.spotify.com/v1/browse/new-releases?offset=50&limit=50",
+      "total": 100
+    }
+  }
+}

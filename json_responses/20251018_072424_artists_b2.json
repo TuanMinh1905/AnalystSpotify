@@ -1,0 +1,1765 @@
+{
+  "timestamp": "20251018_072424",
+  "endpoint": "artists_b2",
+  "extra_info": {
+    "url": "https://api.spotify.com/v1/artists",
+    "params": {
+      "ids": "1lfMGY3PXMmj6qgwiPqp06,1QyEugFxmSpHLGfrQsRUor,1cK2Abwkni7m51wJCSGllN,6DgP9otnZw5z6daOntINxp,3YRsCIkrtDNlUCxZrlOffT,1QAJqy2dA3ihHBFIHRphZj,1zSv9qZANOWB4HRE8sxeTL,3mYnd5Nlmdpg4D9rbAqNUD,22MX8BG5870DGzpNricY7q,18006kpQI473m1ICcpimQ9,3AQRLZ9PuTAozP28Skbq8V,56zJ6PZ3mNPBiBqglW2KxL,3t5xRXzsuZmMDkQzgOX35S,2ZeeJPDvqzQ7c8iG3rRsyc,3gWt5GuzFWCmAHwWVvs4rw,1yWLf9thhwjqScDt6Az4Z9,4CjmulKe83Ymzhud7vD0i5,0sWPIrlMZlHFkDBYkciO3X,2KZp9cq9DQ9unz17ohWTlL,307erl4VjT1dZDMYpneZqd,33J4sIJ9vp7KgdKpxXm6z6,6AtgLd3rwVPep5RSPWRQ1T,6h4WunR692wig5eJkBt8qQ,3unhO6qR1h6msBm7QSUdPF,5mPbBOU2KMFfStepNZ027p,53JNigMoziak3PfjdVcNLh,5xY6E5PMZNtz9jDvxTRiGI,4LuFOXq87Tg0JSl5U7yxFZ,77AiFEVeAVj2ORpC85QVJs,31ozbZlQBQ5TwL6HvzkEUM,1HBjj22wzbscIZ9sEb5dyf,6styCzc1Ej4NxISL0LiigM,0qkGQFUrj8ERPAZcdpa79j,15SHURx3CnODWKpjmNcxgO,0hUr8xEtATxbq2OTiJFAP0,1294QqYm1VuxxjRiL9M0h9,1LEtM3AleYg1xabW6CRkpi,5ZLrUYtJDZYWQXicVVO8On,2txHhyCwHjUEpJjWrEyqyX,1LUhwMGfJbyWkkRu8UmVXT,7asBfEyd6XdZfC3agkULGl,0Vw76uk7P8yVtTClWyOhac,5dfZ5uSmzR7VQK0udbAVpf,3qnGvpP8Yth1AqSBMqON5x,4jIoCS5bJr2TQ2SIbSPnwR,4grjJqg7iwQ8RKHs8d9Snh,009SHiJ9rvFm3vNwL4SjZx,5pXe6yFchq1oyYK3rq2A8i,6H6svVOQLsIH1uK7KedZoQ,7vk5e3vY1uw9plTHJAMwjN"
+    },
+    "status": 200
+  },
+  "response": {
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1lfMGY3PXMmj6qgwiPqp06"
+        },
+        "followers": {
+          "href": null,
+          "total": 226649
+        },
+        "genres": [
+          "indonesian pop",
+          "indonesian r&b",
+          "indonesian indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1lfMGY3PXMmj6qgwiPqp06",
+        "id": "1lfMGY3PXMmj6qgwiPqp06",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eba3d6e1b9897c141c17695ce2",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174a3d6e1b9897c141c17695ce2",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178a3d6e1b9897c141c17695ce2",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Sheryl Sheinafia",
+        "popularity": 35,
+        "type": "artist",
+        "uri": "spotify:artist:1lfMGY3PXMmj6qgwiPqp06"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1QyEugFxmSpHLGfrQsRUor"
+        },
+        "followers": {
+          "href": null,
+          "total": 360
+        },
+        "genres": [
+          "vietnam indie",
+          "v-pop",
+          "vietnamese hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1QyEugFxmSpHLGfrQsRUor",
+        "id": "1QyEugFxmSpHLGfrQsRUor",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273af934ce36155787abdf142e4",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02af934ce36155787abdf142e4",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851af934ce36155787abdf142e4",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Minh Triều",
+        "popularity": 11,
+        "type": "artist",
+        "uri": "spotify:artist:1QyEugFxmSpHLGfrQsRUor"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1cK2Abwkni7m51wJCSGllN"
+        },
+        "followers": {
+          "href": null,
+          "total": 74208
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1cK2Abwkni7m51wJCSGllN",
+        "id": "1cK2Abwkni7m51wJCSGllN",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb131b9f424c43a06eb11fd17e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174131b9f424c43a06eb11fd17e",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178131b9f424c43a06eb11fd17e",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Ultra Naté",
+        "popularity": 53,
+        "type": "artist",
+        "uri": "spotify:artist:1cK2Abwkni7m51wJCSGllN"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6DgP9otnZw5z6daOntINxp"
+        },
+        "followers": {
+          "href": null,
+          "total": 469393
+        },
+        "genres": [
+          "dance pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6DgP9otnZw5z6daOntINxp",
+        "id": "6DgP9otnZw5z6daOntINxp",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb6feac2154df06612ddb08879",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051746feac2154df06612ddb08879",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1786feac2154df06612ddb08879",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Joel Corry",
+        "popularity": 66,
+        "type": "artist",
+        "uri": "spotify:artist:6DgP9otnZw5z6daOntINxp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3YRsCIkrtDNlUCxZrlOffT"
+        },
+        "followers": {
+          "href": null,
+          "total": 18
+        },
+        "genres": [
+          "math rock",
+          "taiwanese indie",
+          "chinese indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3YRsCIkrtDNlUCxZrlOffT",
+        "id": "3YRsCIkrtDNlUCxZrlOffT",
+        "images": [],
+        "name": "Hom Shenhao",
+        "popularity": 3,
+        "type": "artist",
+        "uri": "spotify:artist:3YRsCIkrtDNlUCxZrlOffT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1QAJqy2dA3ihHBFIHRphZj"
+        },
+        "followers": {
+          "href": null,
+          "total": 17261912
+        },
+        "genres": [
+          "dream pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1QAJqy2dA3ihHBFIHRphZj",
+        "id": "1QAJqy2dA3ihHBFIHRphZj",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb0e871e0389b9722cc12a4118",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051740e871e0389b9722cc12a4118",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1780e871e0389b9722cc12a4118",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Cigarettes After Sex",
+        "popularity": 83,
+        "type": "artist",
+        "uri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1zSv9qZANOWB4HRE8sxeTL"
+        },
+        "followers": {
+          "href": null,
+          "total": 1276801
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1zSv9qZANOWB4HRE8sxeTL",
+        "id": "1zSv9qZANOWB4HRE8sxeTL",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb97791c136d7354ad7792555",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174b97791c136d7354ad7792555",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178b97791c136d7354ad7792555",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "RPT MCK",
+        "popularity": 58,
+        "type": "artist",
+        "uri": "spotify:artist:1zSv9qZANOWB4HRE8sxeTL"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3mYnd5Nlmdpg4D9rbAqNUD"
+        },
+        "followers": {
+          "href": null,
+          "total": 49220
+        },
+        "genres": [
+          "v-pop",
+          "vietnam indie",
+          "vietnamese hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3mYnd5Nlmdpg4D9rbAqNUD",
+        "id": "3mYnd5Nlmdpg4D9rbAqNUD",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebf9a52eb3dc5a80fdd55a067b",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174f9a52eb3dc5a80fdd55a067b",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178f9a52eb3dc5a80fdd55a067b",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "JGKiD (Da LAB)",
+        "popularity": 32,
+        "type": "artist",
+        "uri": "spotify:artist:3mYnd5Nlmdpg4D9rbAqNUD"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/22MX8BG5870DGzpNricY7q"
+        },
+        "followers": {
+          "href": null,
+          "total": 184750
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/22MX8BG5870DGzpNricY7q",
+        "id": "22MX8BG5870DGzpNricY7q",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eba573a7f30ae3296818aeb51a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174a573a7f30ae3296818aeb51a",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178a573a7f30ae3296818aeb51a",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "VSOUL",
+        "popularity": 45,
+        "type": "artist",
+        "uri": "spotify:artist:22MX8BG5870DGzpNricY7q"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/18006kpQI473m1ICcpimQ9"
+        },
+        "followers": {
+          "href": null,
+          "total": 10776
+        },
+        "genres": [
+          "slap house",
+          "big room"
+        ],
+        "href": "https://api.spotify.com/v1/artists/18006kpQI473m1ICcpimQ9",
+        "id": "18006kpQI473m1ICcpimQ9",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb83554d1d7c582913ca697c7d",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517483554d1d7c582913ca697c7d",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17883554d1d7c582913ca697c7d",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "22Bullets",
+        "popularity": 39,
+        "type": "artist",
+        "uri": "spotify:artist:18006kpQI473m1ICcpimQ9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3AQRLZ9PuTAozP28Skbq8V"
+        },
+        "followers": {
+          "href": null,
+          "total": 8792570
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3AQRLZ9PuTAozP28Skbq8V",
+        "id": "3AQRLZ9PuTAozP28Skbq8V",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4a0b21cd87d8a8752fd32e94",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051744a0b21cd87d8a8752fd32e94",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1784a0b21cd87d8a8752fd32e94",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "The Script",
+        "popularity": 74,
+        "type": "artist",
+        "uri": "spotify:artist:3AQRLZ9PuTAozP28Skbq8V"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/56zJ6PZ3mNPBiBqglW2KxL"
+        },
+        "followers": {
+          "href": null,
+          "total": 176510
+        },
+        "genres": [
+          "norwegian pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/56zJ6PZ3mNPBiBqglW2KxL",
+        "id": "56zJ6PZ3mNPBiBqglW2KxL",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb8e4a7e151606ae7cedf7543f",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051748e4a7e151606ae7cedf7543f",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1788e4a7e151606ae7cedf7543f",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Peder Elias",
+        "popularity": 54,
+        "type": "artist",
+        "uri": "spotify:artist:56zJ6PZ3mNPBiBqglW2KxL"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3t5xRXzsuZmMDkQzgOX35S"
+        },
+        "followers": {
+          "href": null,
+          "total": 3271563
+        },
+        "genres": [
+          "tropical house"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3t5xRXzsuZmMDkQzgOX35S",
+        "id": "3t5xRXzsuZmMDkQzgOX35S",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb869ddcc058c5ff2a459ad8d5",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174869ddcc058c5ff2a459ad8d5",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178869ddcc058c5ff2a459ad8d5",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Robin Schulz",
+        "popularity": 75,
+        "type": "artist",
+        "uri": "spotify:artist:3t5xRXzsuZmMDkQzgOX35S"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2ZeeJPDvqzQ7c8iG3rRsyc"
+        },
+        "followers": {
+          "href": null,
+          "total": 37711
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2ZeeJPDvqzQ7c8iG3rRsyc",
+        "id": "2ZeeJPDvqzQ7c8iG3rRsyc",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eba66bc54dec5308bfc09422fd",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174a66bc54dec5308bfc09422fd",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178a66bc54dec5308bfc09422fd",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Thomas Ng",
+        "popularity": 38,
+        "type": "artist",
+        "uri": "spotify:artist:2ZeeJPDvqzQ7c8iG3rRsyc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3gWt5GuzFWCmAHwWVvs4rw"
+        },
+        "followers": {
+          "href": null,
+          "total": 1564
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3gWt5GuzFWCmAHwWVvs4rw",
+        "id": "3gWt5GuzFWCmAHwWVvs4rw",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb77ac694a233169c2db49099b",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517477ac694a233169c2db49099b",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17877ac694a233169c2db49099b",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "sanjay.",
+        "popularity": 32,
+        "type": "artist",
+        "uri": "spotify:artist:3gWt5GuzFWCmAHwWVvs4rw"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1yWLf9thhwjqScDt6Az4Z9"
+        },
+        "followers": {
+          "href": null,
+          "total": 73321
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1yWLf9thhwjqScDt6Az4Z9",
+        "id": "1yWLf9thhwjqScDt6Az4Z9",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb0b9c6ea1b6323770e4643693",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051740b9c6ea1b6323770e4643693",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1780b9c6ea1b6323770e4643693",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Tez",
+        "popularity": 49,
+        "type": "artist",
+        "uri": "spotify:artist:1yWLf9thhwjqScDt6Az4Z9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4CjmulKe83Ymzhud7vD0i5"
+        },
+        "followers": {
+          "href": null,
+          "total": 5082
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4CjmulKe83Ymzhud7vD0i5",
+        "id": "4CjmulKe83Ymzhud7vD0i5",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc89abbcf23f0cad9d4794ca5",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174c89abbcf23f0cad9d4794ca5",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178c89abbcf23f0cad9d4794ca5",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Anne Gudrun",
+        "popularity": 44,
+        "type": "artist",
+        "uri": "spotify:artist:4CjmulKe83Ymzhud7vD0i5"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0sWPIrlMZlHFkDBYkciO3X"
+        },
+        "followers": {
+          "href": null,
+          "total": 12980
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0sWPIrlMZlHFkDBYkciO3X",
+        "id": "0sWPIrlMZlHFkDBYkciO3X",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebae3d451089535a0cb8bb7b48",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174ae3d451089535a0cb8bb7b48",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178ae3d451089535a0cb8bb7b48",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Yaeger",
+        "popularity": 41,
+        "type": "artist",
+        "uri": "spotify:artist:0sWPIrlMZlHFkDBYkciO3X"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2KZp9cq9DQ9unz17ohWTlL"
+        },
+        "followers": {
+          "href": null,
+          "total": 39802
+        },
+        "genres": [
+          "chinese r&b",
+          "chinese hip hop",
+          "c-pop",
+          "mandopop",
+          "chinese indie",
+          "taiwanese pop",
+          "taiwanese indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2KZp9cq9DQ9unz17ohWTlL",
+        "id": "2KZp9cq9DQ9unz17ohWTlL",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb7bc20662d8575db99968afab",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051747bc20662d8575db99968afab",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1787bc20662d8575db99968afab",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "KIRE",
+        "popularity": 36,
+        "type": "artist",
+        "uri": "spotify:artist:2KZp9cq9DQ9unz17ohWTlL"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/307erl4VjT1dZDMYpneZqd"
+        },
+        "followers": {
+          "href": null,
+          "total": 38842
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/307erl4VjT1dZDMYpneZqd",
+        "id": "307erl4VjT1dZDMYpneZqd",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb92390da1051c3b52c551170a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517492390da1051c3b52c551170a",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17892390da1051c3b52c551170a",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Mason",
+        "popularity": 54,
+        "type": "artist",
+        "uri": "spotify:artist:307erl4VjT1dZDMYpneZqd"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/33J4sIJ9vp7KgdKpxXm6z6"
+        },
+        "followers": {
+          "href": null,
+          "total": 3097
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/33J4sIJ9vp7KgdKpxXm6z6",
+        "id": "33J4sIJ9vp7KgdKpxXm6z6",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebbc3e8e565ba02855a050dde2",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174bc3e8e565ba02855a050dde2",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178bc3e8e565ba02855a050dde2",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Minsicko",
+        "popularity": 40,
+        "type": "artist",
+        "uri": "spotify:artist:33J4sIJ9vp7KgdKpxXm6z6"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6AtgLd3rwVPep5RSPWRQ1T"
+        },
+        "followers": {
+          "href": null,
+          "total": 35018
+        },
+        "genres": [
+          "vinahouse",
+          "melodic bass"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6AtgLd3rwVPep5RSPWRQ1T",
+        "id": "6AtgLd3rwVPep5RSPWRQ1T",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb979fa30cbfeed290e5b931c2",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174979fa30cbfeed290e5b931c2",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178979fa30cbfeed290e5b931c2",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "WUKONG",
+        "popularity": 37,
+        "type": "artist",
+        "uri": "spotify:artist:6AtgLd3rwVPep5RSPWRQ1T"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6h4WunR692wig5eJkBt8qQ"
+        },
+        "followers": {
+          "href": null,
+          "total": 1351
+        },
+        "genres": [
+          "bass house"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6h4WunR692wig5eJkBt8qQ",
+        "id": "6h4WunR692wig5eJkBt8qQ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eba287f1632e791238a302adac",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174a287f1632e791238a302adac",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178a287f1632e791238a302adac",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "QuickBuck",
+        "popularity": 6,
+        "type": "artist",
+        "uri": "spotify:artist:6h4WunR692wig5eJkBt8qQ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3unhO6qR1h6msBm7QSUdPF"
+        },
+        "followers": {
+          "href": null,
+          "total": 8107
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3unhO6qR1h6msBm7QSUdPF",
+        "id": "3unhO6qR1h6msBm7QSUdPF",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb521d6fd475e65eb12e016163",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174521d6fd475e65eb12e016163",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178521d6fd475e65eb12e016163",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "SpideyBoy",
+        "popularity": 37,
+        "type": "artist",
+        "uri": "spotify:artist:3unhO6qR1h6msBm7QSUdPF"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5mPbBOU2KMFfStepNZ027p"
+        },
+        "followers": {
+          "href": null,
+          "total": 60844
+        },
+        "genres": [
+          "v-pop",
+          "vietnamese hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5mPbBOU2KMFfStepNZ027p",
+        "id": "5mPbBOU2KMFfStepNZ027p",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb82699760e404ec602d17c578",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517482699760e404ec602d17c578",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17882699760e404ec602d17c578",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "OgeNus",
+        "popularity": 51,
+        "type": "artist",
+        "uri": "spotify:artist:5mPbBOU2KMFfStepNZ027p"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/53JNigMoziak3PfjdVcNLh"
+        },
+        "followers": {
+          "href": null,
+          "total": 13896
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/53JNigMoziak3PfjdVcNLh",
+        "id": "53JNigMoziak3PfjdVcNLh",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4c45e069da9219783af6290c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051744c45e069da9219783af6290c",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1784c45e069da9219783af6290c",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Machiot",
+        "popularity": 45,
+        "type": "artist",
+        "uri": "spotify:artist:53JNigMoziak3PfjdVcNLh"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5xY6E5PMZNtz9jDvxTRiGI"
+        },
+        "followers": {
+          "href": null,
+          "total": 448373
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5xY6E5PMZNtz9jDvxTRiGI",
+        "id": "5xY6E5PMZNtz9jDvxTRiGI",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb5b09f4c3eeb52b57f76dccbc",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051745b09f4c3eeb52b57f76dccbc",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1785b09f4c3eeb52b57f76dccbc",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Dangrangto",
+        "popularity": 62,
+        "type": "artist",
+        "uri": "spotify:artist:5xY6E5PMZNtz9jDvxTRiGI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4LuFOXq87Tg0JSl5U7yxFZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 172067
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4LuFOXq87Tg0JSl5U7yxFZ",
+        "id": "4LuFOXq87Tg0JSl5U7yxFZ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc29f15a5b9b46fed41a0f2af",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174c29f15a5b9b46fed41a0f2af",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178c29f15a5b9b46fed41a0f2af",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "QNT",
+        "popularity": 41,
+        "type": "artist",
+        "uri": "spotify:artist:4LuFOXq87Tg0JSl5U7yxFZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/77AiFEVeAVj2ORpC85QVJs"
+        },
+        "followers": {
+          "href": null,
+          "total": 3788173
+        },
+        "genres": [
+          "electro house",
+          "edm"
+        ],
+        "href": "https://api.spotify.com/v1/artists/77AiFEVeAVj2ORpC85QVJs",
+        "id": "77AiFEVeAVj2ORpC85QVJs",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebcf85b39d94c486218a687248",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178cf85b39d94c486218a687248",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Steve Aoki",
+        "popularity": 69,
+        "type": "artist",
+        "uri": "spotify:artist:77AiFEVeAVj2ORpC85QVJs"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/31ozbZlQBQ5TwL6HvzkEUM"
+        },
+        "followers": {
+          "href": null,
+          "total": 220
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/31ozbZlQBQ5TwL6HvzkEUM",
+        "id": "31ozbZlQBQ5TwL6HvzkEUM",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd2e4195baecc55eb965ed57b",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174d2e4195baecc55eb965ed57b",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178d2e4195baecc55eb965ed57b",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Alex Colours",
+        "popularity": 8,
+        "type": "artist",
+        "uri": "spotify:artist:31ozbZlQBQ5TwL6HvzkEUM"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1HBjj22wzbscIZ9sEb5dyf"
+        },
+        "followers": {
+          "href": null,
+          "total": 3876215
+        },
+        "genres": [
+          "tropical house"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1HBjj22wzbscIZ9sEb5dyf",
+        "id": "1HBjj22wzbscIZ9sEb5dyf",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebf801dfae9ad055c7e8fd33b8",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174f801dfae9ad055c7e8fd33b8",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178f801dfae9ad055c7e8fd33b8",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Jonas Blue",
+        "popularity": 71,
+        "type": "artist",
+        "uri": "spotify:artist:1HBjj22wzbscIZ9sEb5dyf"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6styCzc1Ej4NxISL0LiigM"
+        },
+        "followers": {
+          "href": null,
+          "total": 559431
+        },
+        "genres": [
+          "art rock"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6styCzc1Ej4NxISL0LiigM",
+        "id": "6styCzc1Ej4NxISL0LiigM",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb43db49ce029948457972352",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174b43db49ce029948457972352",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178b43db49ce029948457972352",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "The Smile",
+        "popularity": 49,
+        "type": "artist",
+        "uri": "spotify:artist:6styCzc1Ej4NxISL0LiigM"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0qkGQFUrj8ERPAZcdpa79j"
+        },
+        "followers": {
+          "href": null,
+          "total": 121834
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vinahouse",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0qkGQFUrj8ERPAZcdpa79j",
+        "id": "0qkGQFUrj8ERPAZcdpa79j",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb0f83264a3e7470996f394e0a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051740f83264a3e7470996f394e0a",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1780f83264a3e7470996f394e0a",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Phuc Du",
+        "popularity": 50,
+        "type": "artist",
+        "uri": "spotify:artist:0qkGQFUrj8ERPAZcdpa79j"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/15SHURx3CnODWKpjmNcxgO"
+        },
+        "followers": {
+          "href": null,
+          "total": 2970
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/15SHURx3CnODWKpjmNcxgO",
+        "id": "15SHURx3CnODWKpjmNcxgO",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eba0310781bfa9ae388a3084db",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174a0310781bfa9ae388a3084db",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178a0310781bfa9ae388a3084db",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Aldae",
+        "popularity": 40,
+        "type": "artist",
+        "uri": "spotify:artist:15SHURx3CnODWKpjmNcxgO"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0hUr8xEtATxbq2OTiJFAP0"
+        },
+        "followers": {
+          "href": null,
+          "total": 232456
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0hUr8xEtATxbq2OTiJFAP0",
+        "id": "0hUr8xEtATxbq2OTiJFAP0",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc7640a527b2fae36c66681f6",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174c7640a527b2fae36c66681f6",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178c7640a527b2fae36c66681f6",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "24k.Right",
+        "popularity": 49,
+        "type": "artist",
+        "uri": "spotify:artist:0hUr8xEtATxbq2OTiJFAP0"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1294QqYm1VuxxjRiL9M0h9"
+        },
+        "followers": {
+          "href": null,
+          "total": 400377
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1294QqYm1VuxxjRiL9M0h9",
+        "id": "1294QqYm1VuxxjRiL9M0h9",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb631c9afc72085c1cfc50a923",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174631c9afc72085c1cfc50a923",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178631c9afc72085c1cfc50a923",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "UPSAHL",
+        "popularity": 52,
+        "type": "artist",
+        "uri": "spotify:artist:1294QqYm1VuxxjRiL9M0h9"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1LEtM3AleYg1xabW6CRkpi"
+        },
+        "followers": {
+          "href": null,
+          "total": 4500309
+        },
+        "genres": [
+          "v-pop",
+          "vietnamese hip hop",
+          "vietnam indie",
+          "vietnamese lo-fi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1LEtM3AleYg1xabW6CRkpi",
+        "id": "1LEtM3AleYg1xabW6CRkpi",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb91d2d39877c13427a2651af5",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517491d2d39877c13427a2651af5",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17891d2d39877c13427a2651af5",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Đen",
+        "popularity": 58,
+        "type": "artist",
+        "uri": "spotify:artist:1LEtM3AleYg1xabW6CRkpi"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5ZLrUYtJDZYWQXicVVO8On"
+        },
+        "followers": {
+          "href": null,
+          "total": 352604
+        },
+        "genres": [
+          "indonesian pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5ZLrUYtJDZYWQXicVVO8On",
+        "id": "5ZLrUYtJDZYWQXicVVO8On",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebe33a8f148fe41e4b25b20bec",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174e33a8f148fe41e4b25b20bec",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178e33a8f148fe41e4b25b20bec",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Putri Ariani",
+        "popularity": 50,
+        "type": "artist",
+        "uri": "spotify:artist:5ZLrUYtJDZYWQXicVVO8On"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2txHhyCwHjUEpJjWrEyqyX"
+        },
+        "followers": {
+          "href": null,
+          "total": 4297070
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2txHhyCwHjUEpJjWrEyqyX",
+        "id": "2txHhyCwHjUEpJjWrEyqyX",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb89633578648b0b51f53d167f",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000517489633578648b0b51f53d167f",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f17889633578648b0b51f53d167f",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Tom Odell",
+        "popularity": 76,
+        "type": "artist",
+        "uri": "spotify:artist:2txHhyCwHjUEpJjWrEyqyX"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1LUhwMGfJbyWkkRu8UmVXT"
+        },
+        "followers": {
+          "href": null,
+          "total": 25992
+        },
+        "genres": [
+          "j-rap"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1LUhwMGfJbyWkkRu8UmVXT",
+        "id": "1LUhwMGfJbyWkkRu8UmVXT",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb4370c61e8bbde3d7c0dcb731",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051744370c61e8bbde3d7c0dcb731",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1784370c61e8bbde3d7c0dcb731",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "PETZ",
+        "popularity": 39,
+        "type": "artist",
+        "uri": "spotify:artist:1LUhwMGfJbyWkkRu8UmVXT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7asBfEyd6XdZfC3agkULGl"
+        },
+        "followers": {
+          "href": null,
+          "total": 257
+        },
+        "genres": [
+          "j-r&b"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7asBfEyd6XdZfC3agkULGl",
+        "id": "7asBfEyd6XdZfC3agkULGl",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab67616d0000b273cc5cb0c6ca7fc7aee1a32e5c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00001e02cc5cb0c6ca7fc7aee1a32e5c",
+            "height": 300,
+            "width": 300
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616d00004851cc5cb0c6ca7fc7aee1a32e5c",
+            "height": 64,
+            "width": 64
+          }
+        ],
+        "name": "Rashel",
+        "popularity": 18,
+        "type": "artist",
+        "uri": "spotify:artist:7asBfEyd6XdZfC3agkULGl"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0Vw76uk7P8yVtTClWyOhac"
+        },
+        "followers": {
+          "href": null,
+          "total": 1606472
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0Vw76uk7P8yVtTClWyOhac",
+        "id": "0Vw76uk7P8yVtTClWyOhac",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc19adef627892ffdee631d1a",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174c19adef627892ffdee631d1a",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178c19adef627892ffdee631d1a",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "HONNE",
+        "popularity": 60,
+        "type": "artist",
+        "uri": "spotify:artist:0Vw76uk7P8yVtTClWyOhac"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5dfZ5uSmzR7VQK0udbAVpf"
+        },
+        "followers": {
+          "href": null,
+          "total": 7325171
+        },
+        "genres": [
+          "v-pop",
+          "vinahouse",
+          "vietnamese hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5dfZ5uSmzR7VQK0udbAVpf",
+        "id": "5dfZ5uSmzR7VQK0udbAVpf",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb5a79a6ca8c60e4ec1440be53",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051745a79a6ca8c60e4ec1440be53",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1785a79a6ca8c60e4ec1440be53",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Sơn Tùng M-TP",
+        "popularity": 64,
+        "type": "artist",
+        "uri": "spotify:artist:5dfZ5uSmzR7VQK0udbAVpf"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3qnGvpP8Yth1AqSBMqON5x"
+        },
+        "followers": {
+          "href": null,
+          "total": 1921994
+        },
+        "genres": [
+          "retro soul"
+        ],
+        "href": "https://api.spotify.com/v1/artists/3qnGvpP8Yth1AqSBMqON5x",
+        "id": "3qnGvpP8Yth1AqSBMqON5x",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd5112a5b16a01e971ebb049c",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174d5112a5b16a01e971ebb049c",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178d5112a5b16a01e971ebb049c",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Leon Bridges",
+        "popularity": 72,
+        "type": "artist",
+        "uri": "spotify:artist:3qnGvpP8Yth1AqSBMqON5x"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4jIoCS5bJr2TQ2SIbSPnwR"
+        },
+        "followers": {
+          "href": null,
+          "total": 5543
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vietnam indie"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4jIoCS5bJr2TQ2SIbSPnwR",
+        "id": "4jIoCS5bJr2TQ2SIbSPnwR",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd031b85ddb9993dc29305fee",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174d031b85ddb9993dc29305fee",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178d031b85ddb9993dc29305fee",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "16 BrT",
+        "popularity": 33,
+        "type": "artist",
+        "uri": "spotify:artist:4jIoCS5bJr2TQ2SIbSPnwR"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4grjJqg7iwQ8RKHs8d9Snh"
+        },
+        "followers": {
+          "href": null,
+          "total": 437542
+        },
+        "genres": [
+          "vietnamese hip hop",
+          "v-pop",
+          "vinahouse"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4grjJqg7iwQ8RKHs8d9Snh",
+        "id": "4grjJqg7iwQ8RKHs8d9Snh",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebdfe57061d76082712e9c27ec",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174dfe57061d76082712e9c27ec",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178dfe57061d76082712e9c27ec",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Andree Right Hand",
+        "popularity": 52,
+        "type": "artist",
+        "uri": "spotify:artist:4grjJqg7iwQ8RKHs8d9Snh"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/009SHiJ9rvFm3vNwL4SjZx"
+        },
+        "followers": {
+          "href": null,
+          "total": 15390
+        },
+        "genres": [
+          "chinese r&b",
+          "chinese hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/009SHiJ9rvFm3vNwL4SjZx",
+        "id": "009SHiJ9rvFm3vNwL4SjZx",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd10a061759329d13d55dbfdd",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174d10a061759329d13d55dbfdd",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178d10a061759329d13d55dbfdd",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "NYK",
+        "popularity": 32,
+        "type": "artist",
+        "uri": "spotify:artist:009SHiJ9rvFm3vNwL4SjZx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5pXe6yFchq1oyYK3rq2A8i"
+        },
+        "followers": {
+          "href": null,
+          "total": 33395
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5pXe6yFchq1oyYK3rq2A8i",
+        "id": "5pXe6yFchq1oyYK3rq2A8i",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb6451fd9b87034e34cc245952",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab676161000051746451fd9b87034e34cc245952",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f1786451fd9b87034e34cc245952",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "KIDDO",
+        "popularity": 56,
+        "type": "artist",
+        "uri": "spotify:artist:5pXe6yFchq1oyYK3rq2A8i"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6H6svVOQLsIH1uK7KedZoQ"
+        },
+        "followers": {
+          "href": null,
+          "total": 185732
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6H6svVOQLsIH1uK7KedZoQ",
+        "id": "6H6svVOQLsIH1uK7KedZoQ",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb494e962fc825ce893ade9f4e",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174494e962fc825ce893ade9f4e",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178494e962fc825ce893ade9f4e",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Dame D.O.L.L.A",
+        "popularity": 39,
+        "type": "artist",
+        "uri": "spotify:artist:6H6svVOQLsIH1uK7KedZoQ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7vk5e3vY1uw9plTHJAMwjN"
+        },
+        "followers": {
+          "href": null,
+          "total": 41229040
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7vk5e3vY1uw9plTHJAMwjN",
+        "id": "7vk5e3vY1uw9plTHJAMwjN",
+        "images": [
+          {
+            "url": "https://i.scdn.co/image/ab6761610000e5eb572a8eae56feae217f618078",
+            "height": 640,
+            "width": 640
+          },
+          {
+            "url": "https://i.scdn.co/image/ab67616100005174572a8eae56feae217f618078",
+            "height": 320,
+            "width": 320
+          },
+          {
+            "url": "https://i.scdn.co/image/ab6761610000f178572a8eae56feae217f618078",
+            "height": 160,
+            "width": 160
+          }
+        ],
+        "name": "Alan Walker",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:7vk5e3vY1uw9plTHJAMwjN"
+      }
+    ]
+  }
+}
