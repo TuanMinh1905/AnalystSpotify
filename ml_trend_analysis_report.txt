@@ -1,0 +1,31 @@
+
+Dựa trên 56055 records đã phân tích, các yếu tố quan trọng nhất ảnh hưởng đến xu hướng:
+
+  16. followers_log: 0.2942
+  5. artist_followers: 0.2274
+  4. artist_popularity: 0.1951
+  1. duration_minutes: 0.1412
+  8. month: 0.0309
+
+
+💡 KẾT LUẬN VÀ KHUYẾN NGHỊ:
+
+1. Các bài hát có khả năng lên xu hướng cao:
+   - Artist có popularity > 60 và followers cao
+   - Được phát hành trên nhiều markets (> 50% = 93 markets)
+   - Là collaboration (nhiều artists)
+   - Thuộc nhiều genres (đa dạng)
+   
+2. Thời điểm phát hành:
+   - Quý 4 (tháng 10-12) thường có popularity cao hơn
+   - Tracks mới (is_recent=1) có lợi thế
+
+3. Model Performance:
+   - Best Model: Random Forest
+   - R² Score: 0.9902 (giải thích 99.0% variance)
+   - RMSE: 1.5906 (sai số trung bình)
+   - MAE: 0.3618 (sai số tuyệt đối)
+
+4. Độ tin cậy:
+   - Model có thể dự đoán popularity với độ chính xác 95.2%
+   - Phù hợp để tư vấn chiến lược phát hành nhạc
