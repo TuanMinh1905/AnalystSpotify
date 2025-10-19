@@ -3,28 +3,97 @@ Script để vẽ lược đồ quan hệ (ERD) của Gold Layer
 Hiển thị các bảng Dimension, Fact và Aggregate với các mối quan hệ
 """
 
-import sqlite3
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 import matplotlib.lines as mlines
 
-# Database path
-DB_PATH = '/home/hadoopminhquang/spotify_gold.db'
+# Định nghĩa schema cho các bảng
+TABLE_SCHEMAS = {
+    'dim_track': [
+        ('track_id', 'STRING'),
+        ('track_name', 'STRING'),
+        ('duration_ms', 'BIGINT'),
+        ('explicit', 'BOOLEAN'),
+        ('is_collaboration', 'BOOLEAN'),
+        ('popularity', 'BIGINT'),
+        ('primary_genres', 'STRING'),
+    ],
+    'dim_artist': [
+        ('artist_id', 'STRING'),
+        ('artist_name', 'STRING'),
+        ('artist_popularity', 'BIGINT'),
+        ('artist_followers', 'BIGINT'),
+        ('primary_genres', 'STRING'),
+    ],
+    'dim_album': [
+        ('album_id', 'STRING'),
+        ('album_name', 'STRING'),
+        ('album_type', 'STRING'),
+        ('release_date', 'DATE'),
+        ('total_tracks', 'BIGINT'),
+    ],
+    'dim_market': [
+        ('market_id', 'STRING'),
+        ('market_code', 'STRING'),
+    ],
+    'dim_genre': [
+        ('genre_id', 'BIGINT'),
+        ('genre_name', 'STRING'),
+    ],
+    'dim_date': [
+        ('date_id', 'STRING'),
+        ('date', 'DATE'),
+        ('year', 'INT'),
+        ('month', 'INT'),
+        ('day', 'INT'),
+        ('quarter', 'INT'),
+    ],
+    'fact_track_performance': [
+        ('track_id', 'STRING'),
+        ('artist_id', 'STRING'),
+        ('album_id', 'STRING'),
+        ('market_id', 'STRING'),
+        ('date_id', 'STRING'),
+        ('popularity', 'BIGINT'),
+        ('artist_count', 'BIGINT'),
+        ('artist_followers', 'BIGINT'),
+        ('total_appearances', 'BIGINT'),
+        ('total_markets', 'BIGINT'),
+    ],
+    'agg_artist_performance': [
+        ('artist_id', 'STRING'),
+        ('artist_name', 'STRING'),
+        ('total_tracks', 'BIGINT'),
+        ('avg_popularity', 'DOUBLE'),
+        ('max_popularity', 'BIGINT'),
+        ('total_collaborations', 'BIGINT'),
+        ('artist_followers', 'BIGINT'),
+        ('primary_genres', 'STRING'),
+    ],
+    'agg_market_stats': [
+        ('market_id', 'STRING'),
+        ('market_code', 'STRING'),
+        ('total_tracks', 'BIGINT'),
+        ('avg_popularity', 'DOUBLE'),
+        ('unique_artists', 'BIGINT'),
+        ('market_rank', 'BIGINT'),
+    ],
+    'agg_genre_popularity': [
+        ('genre_id', 'BIGINT'),
+        ('genre_name', 'STRING'),
+        ('total_tracks', 'BIGINT'),
+        ('avg_popularity', 'DOUBLE'),
+        ('genre_rank', 'BIGINT'),
+    ],
+}
 
-def get_table_info(conn, table_name):
-    """Lấy thông tin cột của bảng"""
-    cursor = conn.cursor()
-    cursor.execute(f"PRAGMA table_info({table_name})")
-    columns = cursor.fetchall()
-    return [(col[1], col[2]) for col in columns]  # (column_name, data_type)
+def get_table_info(table_name):
+    """Lấy thông tin cột của bảng từ schema đã định nghĩa"""
+    return TABLE_SCHEMAS.get(table_name, [])
 
 def draw_erd():
     """Vẽ ERD diagram cho Gold layer"""
-    
-    # Kết nối database
-    conn = sqlite3.connect(DB_PATH)
     
     # Định nghĩa các bảng và vị trí
     tables = {
@@ -66,11 +135,6 @@ def draw_erd():
     ax.set_ylim(-1, 10)
     ax.axis('off')
     
-    # Vẽ tiêu đề
-    ax.text(6, 9.5, '🎵 Gold Layer - Entity Relationship Diagram', 
-            fontsize=20, fontweight='bold', ha='center',
-            bbox=dict(boxstyle='round,pad=0.5', facecolor='lightgray', edgecolor='black', linewidth=2))
-    
     # Vẽ các bảng
     box_width = 2.2
     box_height_per_row = 0.2
@@ -81,7 +145,7 @@ def draw_erd():
         table_type = info['type']
         
         # Lấy thông tin cột
-        columns = get_table_info(conn, table_name)
+        columns = get_table_info(table_name)
         
         # Tính chiều cao của box dựa trên số cột
         box_height = 0.4 + len(columns) * box_height_per_row
@@ -199,37 +263,9 @@ def draw_erd():
     ax.legend(handles=legend_elements, loc='lower center', ncol=5, fontsize=10,
              bbox_to_anchor=(0.5, -0.05), frameon=True, fancybox=True, shadow=True)
     
-    # Thêm thông tin
-    info_text = """
-    🎵 Spotify Data Warehouse - Gold Layer
-    
-    • Dimension Tables: Chứa thông tin master data (Track, Artist, Album, Market, Genre, Date)
-    • Fact Table: Chứa dữ liệu performance metrics của tracks
-    • Aggregate Tables: Pre-calculated summaries để tăng performance queries
-    
-    🔑 Primary Key    📊 Foreign Key Relationships
-    """
-    ax.text(6, -0.5, info_text,
-           fontsize=9, ha='center', va='top',
-           bbox=dict(boxstyle='round,pad=0.5', facecolor='lightyellow', 
-                    edgecolor='orange', linewidth=1.5, alpha=0.9))
-    
     plt.tight_layout()
     plt.savefig('gold_layer_erd.png', dpi=300, bbox_inches='tight', facecolor='white')
     print("✅ ERD diagram saved as: gold_layer_erd.png")
-    
-    conn.close()
-    
-    # In thống kê
-    print("\n" + "="*80)
-    print("📊 GOLD LAYER STATISTICS")
-    print("="*80)
-    
-    conn = sqlite3.connect(DB_PATH)
-    for table_name in tables.keys():
-        count = pd.read_sql_query(f"SELECT COUNT(*) as count FROM {table_name}", conn).iloc[0]['count']
-        print(f"  {table_name:30s} : {count:6d} rows")
-    conn.close()
     
     print("\n✅ ERD Generation Complete!")
 

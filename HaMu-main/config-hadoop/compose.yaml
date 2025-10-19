@@ -13,7 +13,7 @@ services:
       - "9004:9004"
       - "9864:9864"
       - "9870:9870"
-      - "60070:50070"  
+      - "50071:50070"  
     build: 
       context: ./master
       dockerfile: Dockerfile
